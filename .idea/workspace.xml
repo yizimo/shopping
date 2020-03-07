@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99df9c59-21dc-487e-8bde-702ac6250bed" name="Default Changelist" comment="开始">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="99df9c59-21dc-487e-8bde-702ac6250bed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zimo/mapper/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583580875116</updated>
       <workItem from="1583580877317" duration="2550000" />
-      <workItem from="1583588416684" duration="429000" />
+      <workItem from="1583588416684" duration="843000" />
     </task>
     <task id="LOCAL-00001">
       <created>1583586654291</created>
@@ -96,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583586953806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试提交">
+      <created>1583589024854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583589024854</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,13 +114,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始" />
+    <MESSAGE value="测试提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="812" y="415" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583588443542">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="812" y="415" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1920.992@0.23.1920.992" timestamp="1583588443542" />
+    <state x="571" y="117" key="CommitChangelistDialog2" timestamp="1583589024659">
+      <screen x="0" y="23" width="1920" height="994" />
+    </state>
+    <state x="571" y="117" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1583589024658" />
+    <state x="560" y="259" key="Vcs.Push.Dialog.v2" timestamp="1583589026521">
+      <screen x="0" y="23" width="1920" height="994" />
+    </state>
+    <state x="560" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.994@0.23.1920.994" timestamp="1583589026521" />
+    <state x="648" y="210" key="spring file set editor" timestamp="1583589462285">
+      <screen x="0" y="23" width="1920" height="994" />
+    </state>
+    <state x="648" y="210" key="spring file set editor/0.23.1920.994@0.23.1920.994" timestamp="1583589462285" />
   </component>
   <component name="masterDetails">
     <states>
