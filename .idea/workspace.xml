@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99df9c59-21dc-487e-8bde-702ac6250bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +27,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/maven/apache-maven-3.6.3/local" />
-        <option name="userSettingsFile" value="$USER_HOME$/maven/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -70,7 +65,34 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="shopping [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -83,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583580875116</updated>
       <workItem from="1583580877317" duration="2550000" />
-      <workItem from="1583588416684" duration="843000" />
+      <workItem from="1583588416684" duration="1998000" />
     </task>
     <task id="LOCAL-00001">
       <created>1583586654291</created>
@@ -106,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583589024854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加配置文件">
+      <created>1583589487076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583589487076</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,21 +144,52 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="开始" />
     <MESSAGE value="测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+    <MESSAGE value="增加配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加配置文件" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583589840597">
+      <screen x="0" y="23" width="1920" height="994" />
+    </state>
+    <state x="424" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.994@0.23.1920.994" timestamp="1583589840597" />
     <state x="812" y="415" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583588443542">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="812" y="415" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1920.992@0.23.1920.992" timestamp="1583588443542" />
-    <state x="571" y="117" key="CommitChangelistDialog2" timestamp="1583589024659">
+    <state x="571" y="117" key="CommitChangelistDialog2" timestamp="1583590640348">
+      <screen x="0" y="23" width="1920" height="995" />
+    </state>
+    <state x="571" y="117" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1583589486880" />
+    <state x="571" y="117" key="CommitChangelistDialog2/0.23.1920.995@0.23.1920.995" timestamp="1583590640348" />
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1583590640408">
+      <screen x="0" y="23" width="1920" height="995" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.23.1920.994@0.23.1920.994" timestamp="1583590054342" />
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.23.1920.995@0.23.1920.995" timestamp="1583590640408" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1583590640407">
+      <screen x="0" y="23" width="1920" height="995" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.23.1920.994@0.23.1920.994" timestamp="1583590054341" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.23.1920.995@0.23.1920.995" timestamp="1583590640407" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1583590640407">
+      <screen x="0" y="23" width="1920" height="995" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.23.1920.994@0.23.1920.994" timestamp="1583590054340" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.23.1920.995@0.23.1920.995" timestamp="1583590640407" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1583590640408">
+      <screen x="0" y="23" width="1920" height="995" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.23.1920.994@0.23.1920.994" timestamp="1583590054341" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.23.1920.995@0.23.1920.995" timestamp="1583590640408" />
+    <state x="469" y="158" key="SettingsEditor" timestamp="1583590049521">
       <screen x="0" y="23" width="1920" height="994" />
     </state>
-    <state x="571" y="117" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1583589024658" />
-    <state x="560" y="259" key="Vcs.Push.Dialog.v2" timestamp="1583589026521">
-      <screen x="0" y="23" width="1920" height="994" />
+    <state x="469" y="158" key="SettingsEditor/0.23.1920.994@0.23.1920.994" timestamp="1583590049521" />
+    <state x="560" y="259" key="Vcs.Push.Dialog.v2" timestamp="1583590653017">
+      <screen x="0" y="23" width="1920" height="995" />
     </state>
-    <state x="560" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.994@0.23.1920.994" timestamp="1583589026521" />
+    <state x="560" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.994@0.23.1920.994" timestamp="1583589492483" />
+    <state x="560" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.995@0.23.1920.995" timestamp="1583590653017" />
     <state x="648" y="210" key="spring file set editor" timestamp="1583589462285">
       <screen x="0" y="23" width="1920" height="994" />
     </state>

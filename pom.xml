@@ -183,6 +183,20 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <!-- tomcat插件控制 -->
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+          <port>8080</port>
+          <path>/</path>
+          <uriEncoding>UTF-8</uriEncoding>
+        </configuration>
+      </plugin>
+    </plugins>
+
     <!--idea不会编译src的java目录的xml文件就添加下面代码-->
     <resources>
       <resource>
